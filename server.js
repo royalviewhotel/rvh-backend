@@ -17,16 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const corsOptions = {
-  origin: [
-    "http://localhost:3000",
-    "http://localhost:3001",
-    "https://zar-portfolio.tech",
-    "https://www.zar-portfolio.tech",
-    "https://royal-view-hotel.vercel.app",
-    "https://royal-view-hotel-admin.vercel.app",
-    "https://rvh-frontend.vercel.app",
-    "https://rvh-admin.vercel.app",
-  ],
+  origin: ["https://rvh-frontend.vercel.app", "https://rvh-admin.vercel.app"],
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
