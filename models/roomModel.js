@@ -26,6 +26,7 @@ var roomSchema = new mongoose.Schema(
     },
     isAvailable: {
       type: Boolean,
+      default: true,
     },
   },
   {
