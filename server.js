@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const corsOptions = {
-  origin: ["https://rvh-frontend.vercel.app", "https://rvh-admin.vercel.app"],
+  origin: ["*"],
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
