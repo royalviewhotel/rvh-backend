@@ -24,6 +24,8 @@ const corsOptions = {
     "https://www.zar-portfolio.tech",
     "https://royal-view-hotel.vercel.app",
     "https://royal-view-hotel-admin.vercel.app",
+    "https://rvh-frontend.vercel.app/",
+    "https://rvh-admin.vercel.app/",
   ],
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
